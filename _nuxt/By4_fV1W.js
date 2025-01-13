@@ -1,0 +1,1 @@
+import{_ as t,o as s,c as a,a as c,l as o}from"./Dw4AUDsD.js";const n={},r={class:"mx-auto flex min-h-[max(100vh,320px)] min-w-80 max-w-[1800px] flex-col items-center justify-around gap-16 p-4 lg:p-8"},l={class:"mt-[10vh] text-center"};function i(e,m){return s(),a("div",r,[c("main",l,[o(e.$slots,"default")])])}const d=t(n,[["render",i]]);export{d as default};

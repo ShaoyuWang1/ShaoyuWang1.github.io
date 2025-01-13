@@ -1,0 +1,10 @@
+.DS_Store
+*.log*
+.cache
+.env
+.nitro
+.nuxt
+.output
+.vscode
+dist
+node_modules
