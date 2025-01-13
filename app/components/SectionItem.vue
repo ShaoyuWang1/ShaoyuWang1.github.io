@@ -18,8 +18,7 @@ const { post } = defineProps<{
         :image="post.cover ?? post.images[0] ?? ''"
         :to="to"
         :title="post.name"
-        width="1920"
-        height="1440"
+        width="1000"
       />
     </template>
   </BaseContainer>

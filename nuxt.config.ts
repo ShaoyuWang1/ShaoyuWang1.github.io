@@ -5,8 +5,18 @@ export default defineNuxtConfig({
   extends: ['nuxt-umami'],
   modules: ['@nuxtjs/robots', '@nuxtjs/tailwindcss'],
   nitro: {
+    publicAssets: [
+      {
+        baseURL: '/', // 确保映射到根路径
+        dir: 'public', // 确保 public 文件夹被正确指定
+      },
+    ],
+    output: {
+      dir: 'dist',
+      publicDir: 'dist/public',
+    },
     prerender: {
-      routes: ['/subscription/thank-you', '/subscription/unsubscribed-successfully'],
+      routes: ['/'], // 指定需要预渲染的路由
     },
     routeRules: {
       '/dinkie-bitmap': {
@@ -24,6 +34,9 @@ export default defineNuxtConfig({
     define: {
       'import.meta.env.VITE_BUILD_DATE': JSON.stringify(new Date()),
     },
+  },
+  app: {
+    baseURL: '/vue_project/',
   },
   appConfig: {
     umami: {

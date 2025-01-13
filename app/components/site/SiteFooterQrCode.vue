@@ -8,7 +8,7 @@ defineProps<{
   <Transition>
     <div v-show="show" class="absolute bottom-12 transition-opacity lg:bottom-16">
       <img
-        src="https://open.weixin.qq.com/qr/code?username=atelierAnchor"
+        src="assets/cursor.png"
         alt="atelierAnchor"
         width="128"
         height="128"

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const links = ['works', 'typefaces', 'about']
+const links = [ 'publications']
 
 defineProps<{
   show: boolean

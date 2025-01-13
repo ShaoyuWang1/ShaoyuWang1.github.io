@@ -5,6 +5,6 @@
     <main class="mt-[10vh] text-center">
       <slot></slot>
     </main>
-    <SiteLogo />
+
   </div>
 </template>

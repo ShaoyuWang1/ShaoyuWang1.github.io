@@ -1,20 +1,20 @@
 <script setup lang="ts">
 const socialMediaItems = [
-  {
-    name: 'tw',
-    title: 'Twitter',
-    url: 'https://twitter.com/atelier_anchor',
-  },
+
   {
     name: 'ins',
     title: 'Instagram',
-    url: 'https://www.instagram.com/atelier_anchor',
+    url: 'https://www.instagram.com/windsky_wang',
   },
   {
     name: 'wb',
     title: 'Weibo',
-    url: 'https://weibo.com/u/7568137725',
+    url: 'https://m.weibo.cn/u/6476136828',
   },
+  {name: 'blog',
+  title: "Personal Blog",
+  url: "https://www.vvindsky.xyz"
+  }
 ]
 
 const showQrCode = ref(false)
@@ -57,7 +57,7 @@ onMounted(() => {
         </NuxtLink>
       </li>
       <li>
-        <button
+        <!-- <button
           id="QrCodeToggler"
           title="WeChat"
           :aria-expanded="showQrCode"
@@ -66,7 +66,7 @@ onMounted(() => {
           data-umami-event-content="Social Media: WeChat"
         >
           wx
-        </button>
+        </button> -->
       </li>
     </ul>
   </footer>

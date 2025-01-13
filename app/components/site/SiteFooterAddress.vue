@@ -1,9 +1,9 @@
 <template>
   <address class="not-italic">
-    101 A, No. 15, Lane 545<br />
-    Zhenning Road<br />
-    Changning District<br />
-    Shanghai, China<br />
-    <NuxtLink to="mailto:hi@atelier-anchor.com">hi@atelier-anchor.com</NuxtLink>
+    The Chinese University of Hong Kong, Shenzhen<br />
+    2001 Long Xiang, Avenue<br />
+    Longgang District<br />
+    Shenzhen, China<br />
+    <!-- <NuxtLink to="shaoyuwang@link.cuhk.edu.cn">shaoyuwanga_at_link.cuhk.edu.cn</NuxtLink> -->
   </address>
 </template>

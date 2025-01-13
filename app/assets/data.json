@@ -1,4 +1,104 @@
-{
+{   "publications": [
+  {  
+    "id": "data_driven_AOP",
+    "cover":"cover.png",
+    "images":["cover.png"],
+    "name": "The-Data-is-All-You-Need: Model-free Assortment Optimization",
+    "date": "2024-05-12",
+    "category": ["data-driven","robust optimization;assortment","approximation algorithm"," LaTeX styles","author templates"],
+    "authors": [{
+      "name": "Shaoyu Wang",
+      "affiliation" : "CUHK(SZ)",
+      "page": "www.vvindsky.xyz"
+    },
+    {
+      "name": "Pin Gao",
+      "affiliation" : "CUHK(SZ)",
+      "page": "https://sds.cuhk.edu.cn/en/teacher/429"
+    },
+    {
+      "name": "Andre Cire",
+      "affiliation" : "Rotman School of Management, University of Toronto",
+      "page": "https://www.utsc.utoronto.ca/mgmt/andre-cire"
+    },
+    
+    {
+      "name": "Ningyuan Chen",
+      "affiliation" : "Rotman School of Management, University of Toronto",
+      "page": "http://individual.utoronto.ca/ningyuanchen/"
+    }
+
+  ],
+    "description": [        "", "Firms use assortment optimization to identify a set of products to offer to consumers in order to maximize the potential revenue. Traditionally, firms first use the historical transaction data to estimate a discrete choice model that predicts the choice behavior of future consumers, and subsequently solve the optimal assortment with such an estimated discrete choice model. This is typically referred to as the predict-then-optimizeapproach. In this paper, we propose an alternative approach that maps the data to the assortment decision in an end-to-end fashion, without the need to estimate a discrete choice model. The formulation extracts the partial orders induced from each customer in the historical transaction data. The assortment is then selected to maximize the worst-case revenue for a new customer when his/her preference is uniformly random, consistent with their partial historical order.  We formulate the problem as a mixed-integer program and show its hardness. We also provide two heuristics with tight performance guarantees using LP rounding and revenue-ordered assortments. Our framework is particularly attractive when (1) the data is scarce so that estimating model parameters can be unstable or (2) when the consumer behavior is complex and a chosen discrete choice model is likely to be misspecified."]
+  },
+
+  {  
+    "id": "live_streaming",
+    "cover":"cover.png",
+    "images":["cover.png"],
+    "name": "Live-Streaming Commerce: An Approach to Implementing Targeted Advertising in Sponsored Search",
+    "date": "2024-04-12",
+    "category": ["Research paper","Mechanism Design","Mechanism Design","Targeted Advertising"],
+    "authors": [{
+      "name": "Shaoyu Wang",
+      "affiliation" : "CUHK(SZ)",
+      "page": "www.vvindsky.xyz"
+    },
+    {
+      "name": "Pin Gao",
+      "affiliation" : "CUHK(SZ)",
+      "page": "https://sds.cuhk.edu.cn/en/teacher/429"
+    },
+    {
+      "name": "Yang Li",
+      "affiliation" : "IVEY Business School",
+      "page": "https://www.ivey.uwo.ca/faculty_research/directory/yang-li/"
+    },
+    {
+      "name": "Ying-ju Chen",
+      "affiliation" : "HKUST Business School",
+      "page": "https://imchen.people.ust.hk/"
+    }
+
+  ],
+    "description": [        "", "The dominant technology in online advertising has been sponsored search. Publishers benefit from premium ad positions and capitalize on the vast amount of customer traffic they deliver to advertisers. However, the attention-grabbing nature of sponsored search poses a challenge to the effectiveness of advertising, as targeting is not easily aligned with the success formula of sponsored search since targeting at any ad position tends to diminish the conversion rate, thereby jeopardizing publishers' revenue. In this paper, we argue that the contradiction between targeted advertising and sponsored search stems from the neglect of information control in ad content. If publishers can manage the information an advertiser presents to potential consumers, targeted advertising can act as a catalyst for sponsored search, resulting in greater revenues for publishers. This perspective sheds light on the thriving live-streaming advertising industry. By sequentially presenting ad content for different products through the talents of publishers or influencers, publishers can integrate targeted advertising into the sponsored search framework. That has two benefits: first, the control of ad content empowers the publisher to consistently direct a larger portion of customers to advertisers with high-profit margins regardless of their assigned ad positions. And second, targeted advertising helps advertisers to prosper from the lifetime value of matched customers. Moreover, targeted advertising is also a device of coping with information asymmetry when being applied to an inferior ad position."]
+  },
+  {
+    "id": "IDM-AOP",
+    "name": "Assortment Optimization with Downward Feasibility: Efficient Heuristics Based on Independent Demands",
+    "date": "2024-11-12",
+    "category": ["Assortment Optimization", "Downward Feasibility","Independent Demands", "Modified Revenues"],
+    "authors": [
+      {
+        "name": "Guillermo Gallego",
+        "affiliation" : "CUHK(SZ)",
+        "page": "https://sds.cuhk.edu.cn/en/teacher/568"
+      },
+
+      {
+        "name": "Pin Gao",
+        "affiliation" : "CUHK(SZ)",
+        "page": "https://sds.cuhk.edu.cn/en/teacher/429"
+      },
+
+      {
+        "name": "Shaoyu Wang",
+        "affiliation" : "CUHK(SZ)",
+        "page": "www.vvindsky.xyz"
+      },
+      {
+        "name": "Gerardo Berbegila",
+        "affiliation" : "The University of Melbourne",
+        "page": "https://mbs.edu/faculty-and-research/faculty/gerardo-berbeglia"
+      }
+
+    ],
+    "description": [
+    "A core challenge in revenue management is to select a subset of products or services to offer customers to maximize a firm’s expected revenue. Given the complexity of optimizing assortment decisions under intricate consumer behavior and business constraints, industry practitioners often resort to estimating product demand and optimizing decisions based on the independent demand (IDM) assumption,  namely each product's demand is independent of the other offered products. \\ To address its limitation of overlooking substitution effects, this paper proposes an IDM-based optimization variant that aligns “independent” demands with purchase probabilities for single-product offerings and uniformly modifies product revenues by a constant. For last-choice regular models that meet certain bounding conditions, our heuristic achieves the best possible performance guarantees and necessitates solving only two linear programs when the constraints are totally unimodular (TUM) and downward feasible. More generally, we propose heuristic extensions for cases where constraints are not TUM or the bounding conditions are difficult to determine. Beyond its practical simplicity, the proposed methodology also facilitates the development of efficient heuristics for several previously studied problems, either by relaxing assumptions or improving approximation ratios. Extensive computational experiments demonstrate that the proposed heuristics consistently deliver exceptional performance. Furthermore, analysis of a real-world dataset reveals that our heuristics, when derived from models with higher predictive accuracy,  achieve superior optimization outcomes."],
+    "cover":"cover.png",
+    "images":["cover.png"]
+  }
+],
   "works": [
     {
       "id": "agt",
@@ -629,6 +729,17 @@
         "Graphic design",
         "Motion graphic"
       ],
+      "authors": [
+        {
+          "name": "Shaoyu Wang",
+          "affiliation": "CUHK(SZ)",
+          "page": "https://www.google.com"
+        },{
+          "name": "Shaoyu Wan2",
+          "affiliation": "CUHK(SZ)",
+          "page": "https://www.google.com"
+        }
+      ],
       "credits": [
         {
           "title": "Client",
@@ -651,21 +762,7 @@
         "我们与 WDCC 品牌视觉团队合作，在 WDCC 2022 的品牌视觉框架下以数字「100」的造型作为核心视觉点，让组合叠加的颜色穿梭于数字内部，数字外侧与外部空间发生互动而扩张、延展。由此构成形式简约且又变化精巧的视觉效果，并将这种自数字设计而生的效果推广至静态的平面物料中运用。",
         "The International Design 100 Summit Forum is one of the iconic events of the World Design Cities Conference, co-sponsored by the Shanghai Municipal Commission of Economy and Information Technology and Tongji University. We collaborated with WDCC's visual design team to build the shape of \"100\" as its core visual. The superimposed colors shuffle through the interior of the number while the rim of the shape expands and extends. It creates a visual effect that is simple in form but exquisitely variegated in style, and this digital effect is then transferred to physical graphics as well."
       ],
-      "cover": "wdcc-2022-cover.webp",
-      "images": [
-        "wdcc-2022-1.webp",
-        "wdcc-2022-2.webp",
-        "wdcc-2022-3.webp",
-        "wdcc-2022-4.webp"
-      ],
-      "videos": [
-        {
-          "src": "wdcc-2022-5.webm"
-        },
-        {
-          "src": "wdcc-2022-6.webm"
-        }
-      ]
+      "cover": "wdcc-2022-cover.webp"
     }
   ],
   "typefaces": [
@@ -685,6 +782,12 @@
           "name": "Willie Liu"
         }
       ],
+      "authors": [{
+        "name": "Shaoyu Wang",
+        "affiliation" : "CUHK(SZ)",
+        "page": "www.goole.com"
+      }
+    ],
       "description": [
         "丁卯点阵体的设计初衷是探索小尺寸像素汉字的可能性，以此致敬将中文世界带入信息化时代的先驱们。",
         "如果您想要咨询「丁卯点阵体」的商用授权事宜、购买授权或进行询价，请向 [dinkie<wbr>bit<wbr>map@<wbr>atelier-<wbr>anchor.<wbr>com](mailto:licensing@atelier-anchor.com) 发送邮件说明您的需求，我们将尽快回复。",
